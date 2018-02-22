@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2005
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "deneme1", "12.02.2018\deneme1.csproj", "{63643AF3-AC2E-4355-A4B0-9AC370B58F59}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Commonn", "Commonn\Commonn.csproj", "{87D0345C-7B2B-49BF-9C9B-91110B8729E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Seralizers", "Seralizers\Seralizers.csproj", "{41C3956E-FBDD-4C04-9A63-E46C487FAFBB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{63643AF3-AC2E-4355-A4B0-9AC370B58F59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63643AF3-AC2E-4355-A4B0-9AC370B58F59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63643AF3-AC2E-4355-A4B0-9AC370B58F59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63643AF3-AC2E-4355-A4B0-9AC370B58F59}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87D0345C-7B2B-49BF-9C9B-91110B8729E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87D0345C-7B2B-49BF-9C9B-91110B8729E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87D0345C-7B2B-49BF-9C9B-91110B8729E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87D0345C-7B2B-49BF-9C9B-91110B8729E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41C3956E-FBDD-4C04-9A63-E46C487FAFBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41C3956E-FBDD-4C04-9A63-E46C487FAFBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41C3956E-FBDD-4C04-9A63-E46C487FAFBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41C3956E-FBDD-4C04-9A63-E46C487FAFBB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6F707C5A-0539-43E2-930C-1BDB9A807661}
+	EndGlobalSection
+EndGlobal
