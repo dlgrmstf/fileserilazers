@@ -110,7 +110,7 @@
             // 
             // btnSave
             // 
-            this.btnSave.Location = new System.Drawing.Point(42, 503);
+            this.btnSave.Location = new System.Drawing.Point(34, 527);
             this.btnSave.Name = "btnSave";
             this.btnSave.Size = new System.Drawing.Size(185, 74);
             this.btnSave.TabIndex = 1;
@@ -120,7 +120,7 @@
             // 
             // btnLoad
             // 
-            this.btnLoad.Location = new System.Drawing.Point(255, 503);
+            this.btnLoad.Location = new System.Drawing.Point(247, 527);
             this.btnLoad.Name = "btnLoad";
             this.btnLoad.Size = new System.Drawing.Size(185, 74);
             this.btnLoad.TabIndex = 2;
@@ -130,7 +130,7 @@
             // 
             // btnAdd
             // 
-            this.btnAdd.Location = new System.Drawing.Point(470, 503);
+            this.btnAdd.Location = new System.Drawing.Point(462, 527);
             this.btnAdd.Name = "btnAdd";
             this.btnAdd.Size = new System.Drawing.Size(185, 74);
             this.btnAdd.TabIndex = 3;
@@ -140,7 +140,7 @@
             // 
             // btnRmove
             // 
-            this.btnRmove.Location = new System.Drawing.Point(700, 503);
+            this.btnRmove.Location = new System.Drawing.Point(692, 527);
             this.btnRmove.Name = "btnRmove";
             this.btnRmove.Size = new System.Drawing.Size(185, 74);
             this.btnRmove.TabIndex = 4;
@@ -150,7 +150,7 @@
             // 
             // btnEdit
             // 
-            this.btnEdit.Location = new System.Drawing.Point(911, 503);
+            this.btnEdit.Location = new System.Drawing.Point(903, 527);
             this.btnEdit.Name = "btnEdit";
             this.btnEdit.Size = new System.Drawing.Size(189, 74);
             this.btnEdit.TabIndex = 5;
@@ -166,7 +166,7 @@
             "Xml",
             "Json",
             "Csv"});
-            this.comboBoxFileFormat.Location = new System.Drawing.Point(77, 592);
+            this.comboBoxFileFormat.Location = new System.Drawing.Point(69, 616);
             this.comboBoxFileFormat.Name = "comboBoxFileFormat";
             this.comboBoxFileFormat.Size = new System.Drawing.Size(300, 39);
             this.comboBoxFileFormat.TabIndex = 8;
