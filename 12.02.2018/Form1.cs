@@ -1,4 +1,5 @@
 ﻿using _deneme1;
+using log4net;
 using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
@@ -26,6 +27,7 @@ namespace _deneme1
         ReadWriteJsonFile readWriteJsonFile = new ReadWriteJsonFile();
         ReadWriteXmlFile readWriteXmlFile = new ReadWriteXmlFile();
         List<IReadWriteFile> m_Formats = new List<IReadWriteFile>();
+        private static readonly ILog logger = LogManager.GetLogger(typeof(BindingList<person>));
         int lastID = 0;
 
 
@@ -43,6 +45,7 @@ namespace _deneme1
                     BindingList<person> readpersons = (BindingList<person>)reader.Deserialize(file);
                     file.Close();
                     persons = readpersons;
+                    logger.Debug("Xml dosyasindan okuma yapildi");
                 }
             }
             dataGridViewBindingList.DataSource = persons;
@@ -70,6 +73,7 @@ namespace _deneme1
                 }
                 _newPerson.id = lastID;
                 persons.Add(_newPerson);
+                logger.Debug("Person eklendi");
             }
         }
 
