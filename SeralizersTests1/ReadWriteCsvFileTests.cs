@@ -17,6 +17,8 @@ namespace _deneme1.Tests
         BindingList<person> persons = new BindingList<person>();
         ReadWriteXmlFile testReadWriteXmlFile = new ReadWriteXmlFile();
         [TestMethod()]
+        [System.ComponentModel.Description("Check to see if a file read.")]
+        [TestCategory("Read")]
         public void ReadFileTest()
         {
             BindingList<person> testReadPerson = testReadWriteXmlFile.ReadFile(@"c:\Users\Dulger\Documents\testdata.xml");
@@ -25,6 +27,8 @@ namespace _deneme1.Tests
         }
 
         [TestMethod()]
+        [TestCategory("Write")]
+        [System.ComponentModel.Description("Check to see if a file read.")]
         public void WriteFileTest()
         {
             _newTestPerson = new person() { id = 1, name = "mustafa", surname = "dulger", dateofBirth = new DateTime(1997, 03, 08), gender = "male", married = "married" };
