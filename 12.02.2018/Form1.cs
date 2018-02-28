@@ -84,7 +84,9 @@ namespace _deneme1
             {
                 person _selectedPerson = row.DataBoundItem as person;
                 persons.Remove(_selectedPerson);
+                logger.Debug("Person silindi");
             }
+
         }
 
         private void Edit()
